@@ -9,10 +9,10 @@ terraform {
 
 provider "proxmox" {
   pm_tls_insecure     = true
-  pm_api_url          = "https://hv-r630-02.labo.loc:8006/api2/json"
+  pm_api_url          = "Votre_url_api
   pm_parallel         = "2"
   pm_debug            = true
-  pm_api_token_id     = "TerraformProv@pve!Terraform-token"
-  pm_api_token_secret = "6db78d81-9a5d-47d6-9b7c-9dfb5cd55aa9"
+  pm_api_token_id     = "Votre_token_id"
+  pm_api_token_secret = "Votre_secret"
 
 }
